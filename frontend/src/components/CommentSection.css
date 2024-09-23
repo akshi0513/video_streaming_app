@@ -1,0 +1,118 @@
+/* Container for the comments section */
+.comments-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Heading for comments section */
+  .comments-container h3 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Comment list */
+  .comments-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .comments-container ul li {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Comment text */
+  .comments-container p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #555;
+  }
+  
+  /* Likes and dislikes section */
+  .likes-dislikes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .likes-dislikes span {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .likes-dislikes button {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .likes-dislikes button:hover {
+    color: black;
+  }
+  
+  /* Textarea for adding new comments */
+  .comments-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Comment button */
+  .comments-container button {
+    padding: 10px 20px;
+    background-color: peachpuff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comments-container button:hover {
+    background-color: papayawhip;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .comments-container h3 {
+      font-size: 20px;
+    }
+  
+    .comments-container ul li {
+      padding: 10px;
+    }
+  
+    .likes-dislikes span,
+    .likes-dislikes button {
+      font-size: 12px;
+    }
+  
+    .comments-container textarea {
+      height: 80px;
+    }
+  }
+  

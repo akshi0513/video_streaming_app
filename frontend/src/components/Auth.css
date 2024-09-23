@@ -1,0 +1,80 @@
+/* Container for the authentication form */
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    background-color: lightcyan;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; /* Center-align text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center vertically and horizontally */
+  }
+  
+  /* Heading style */
+  .auth-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields styling */
+  .auth-container input[type="text"],
+  .auth-container input[type="email"],
+  .auth-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-container button:hover {
+    background-color: bisque;
+  }
+  
+  /* Link button for switching between login and register */
+  .auth-container .switch-button {
+    background: none;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    font-size: 14px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .auth-container .switch-button:hover {
+    color: bisque;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .auth-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .auth-container h2 {
+      font-size: 24px;
+    }
+  }
+  

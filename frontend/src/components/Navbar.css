@@ -1,0 +1,31 @@
+/* Navbar container styling */
+.navbar-container {
+    background-color: rosybrown !important; /* Use !important to override */
+    color: white;
+  }
+  
+  /* Logo and title */
+  .navbar-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Buttons in the navbar */
+  .navbar-button {
+    margin-left: 15px;
+    color: white !important; /* Use !important to override */
+    font-weight: bold;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar-title {
+      font-size: 18px;
+    }
+  
+    .navbar-button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+/* Container for the video player */
+.video-player-container {
+    max-width: 800px; /* Set a max-width for the video */
+    margin: 0 auto; /* Center the video player horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Video heading */
+  .video-player-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Styling for the video element */
+  .video-player-container video {
+    width: 100%; /* Make the video responsive */
+    height: auto;
+    border-radius: 10px; /* Match the container's rounded corners */
+    background-color: #000; /* Black background for the video area */
+  }
+  
+  /* Loading and error messages */
+  .video-player-container p {
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .video-player-container {
+      width: 95%; /* Make it more narrow on smaller screens */
+    }
+  
+    .video-player-container h2 {
+      font-size: 20px;
+    }
+  }
+  
